@@ -1,0 +1,7 @@
+[user]
+	name = Helder Rossa
+	email = kimus.linuxus@gmail.com
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
