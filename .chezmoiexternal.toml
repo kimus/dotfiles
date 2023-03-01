@@ -12,3 +12,8 @@
     type = "git-repo"
     url = "https://github.com/zsh-users/zsh-syntax-highlighting"
     refreshPeriod = "168h"
+
+[".oh-my-zsh/themes/powerlevel10k"]
+    type = "git-repo"
+    url = "https://github.com/romkatv/powerlevel10k.git"
+    refreshPeriod = "168h"
