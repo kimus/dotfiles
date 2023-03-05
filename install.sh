@@ -28,6 +28,7 @@ elif [ "$(command -v wget)" ]; then
 fi
 unzip $BW_FILE "$HOME/.local/bin"
 rm $BW_FILE
+export BW_SESSION=$(bw login $BW_EMAIL $BW_PASSWORD --raw)
 
 # POSIX way to get script's dir: https://stackoverflow.com/a/29834779/12156188
 script_dir="$(cd -P -- "$(dirname -- "$(command -v -- "$0")")" && pwd -P)"
